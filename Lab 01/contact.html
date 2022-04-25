@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact | Lacoste</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="logo">
+            <img src="logo.png" alt="logo" class="logo-img" width="75px">
+            <h1 class="logo-text">Lacoste</h1>
+        </div>
+
+        <nav id="navbar" class="navbar">
+            <ul class="nav-links" style="list-style-type: none;">
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="clothing.html">Clothing</a></li>
+                <li><a class="nav-link" href="about.html">About</a></li>
+                <li><a class="nav-link active" href="contact.html">Contact</a></li>
+            </ul>
+
+            <a href="register.html" class="cta"><button>Join Us</button></a>
+        </nav>
+    </header>
+
+    <section id="contact">
+        <div class="container">         
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h3 class="main-text">Send Your Request!</h3>
+
+                    <form action="#">
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Name">
+                            </div>   
+
+                            <div class="input-group">
+                                <label for="ph">Phone</label>
+                                <input type="number" id="ph" name="num" placeholder="Phone Number">
+                            </div>      
+                        </div>
+
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="Email Address">
+                            </div>   
+
+                            <div class="input-group">
+                                <label for="sub">Subject</label>
+                                <input type="text" id="sub" name="sub" placeholder="Subject">
+                            </div>      
+                        </div>
+
+                        <label for="tArea">Message</label>
+                        <textarea name="msg" id="tArea" rows="5" placeholder="Your Message"></textarea>
+
+                        <div class="row button">
+                            <input type="button" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-content">
+            <ul class="social" style="list-style-type: none;">
+                <li><a href="#"><img src="facebook.svg" alt="icon" width="12px"></a> &nbsp;&nbsp; |</li>
+                <li><a href="#"><img src="instagram.svg" alt="icon" width="17px"></i></a> &nbsp;&nbsp; |</li>
+                <li><a href="#"><img src="twitter.svg" alt="icon" width="17px"></i></a> &nbsp;&nbsp; |</li>
+                <li><a href="#"><img src="google-plus.svg" alt="icon" width="24px"></i></a> &nbsp;&nbsp; |</li>
+                <li><a href="#"><img src="linkedin.svg" alt="icon" width="15px"></i></a></li>
+            </ul>
+
+            <p>copyright &copy;2022. Designed by <span>Abdul Basit</span></p>
+        </div>
+    </footer>
+</body>
+
+</html>

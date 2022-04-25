@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;  
+    overflow: hidden;
+}
+
+.container{
+    padding: 60px 80px;
+}
+
+h1{
+    font-family: 'Metrophobic',sans-serif;
+    font-size: 25px;
+    color: blue;
+}
+
+h3{
+    font-family: 'Metrophobic',sans-serif;
+    margin-top: 13px;
+    margin-bottom: 15px;
+}
+
+nav ul li{
+    padding: 7px 0;
+}
+
+nav ul li a{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    color: blue;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: yellow;
+    padding: 3px;
+}

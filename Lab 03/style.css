@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h3{
+    font-family: 'Metrophobic', sans-serif;
+    font-size: 17px;
+    margin: 10px 10px 42px 10px;
+}
+
+h4{
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 35px 0 -4px 0;
+}
+
+p{
+    font-family: 'Raleway', sans-serif;
+    margin: 20px 80px;
+}
+
+.container{
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #c0c0c0;
+    border-radius: 5px;
+}
+
+#box1{
+    margin-top: 60px;
+}
+
+.task{
+    font-size: 19px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.navbar{
+    height: 35px;
+    width: 95%;
+    background-color: black;
+    border-radius: 5px;
+    margin: 40px auto;
+}
+
+.progress-bars{
+    width: 50%;
+    margin: auto;
+}
+
+.progress{
+    margin: 15px;
+}
+
+.pages{
+    padding-left: 20px;
+}
+
+.pagination{
+    font-size: 15px;
+}
+
+.button-pagination{
+    margin: 12px;
+}
+
+.last-pager-heading{
+    margin-top: 2px;
+}
+
+.last-pager{
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.alert{
+    height: 50px;
+    align-items: center;
+    width: 80%;
+    margin: 15px auto;
+    font-size: 14px;
+    border: 1px solid #edecec;
+}
+
+.form-div{
+    width: 60%;
+    margin-left: 25px;
+}
+
+label{
+    font-weight: 400;
+}
+
+.btn{
+    border-radius: 5px;
+    width: 70px;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.invalid-feedback{
+    font-size: 14px;
+    margin-top: 6px;
+}

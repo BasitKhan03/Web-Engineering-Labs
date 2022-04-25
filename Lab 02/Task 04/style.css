@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;  
+    overflow: hidden;
+}
+
+h1, h2{
+    font-family: 'Metrophobic', sans-serif;
+    padding: 0.5em;
+    border: 1px dashed #1b1b1b;
+    margin: 0.5em;
+}
+
+.container{
+    margin-top: 55px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lab 05 | DOM Manipulation</title>
+</head>
+
+<body>
+    
+    <!-- Task 01 -->
+    <div class="container" id="box1">
+        <h3><span class="task">Task 1</span>: Using the Shopping List files from the previous videos update the shopping list app to do the given tasks.</h3>
+        
+        <div id="task1">
+            <div id="myDIV" class="header">
+                <h2>My To Do List</h2>
+                <input type="text" id="myInput" placeholder="Title...">
+                <span onclick="newElement()" class="addBtn">Add</span>
+            </div>
+        
+            <ul id="myUL" style="list-style-type: none;">
+                <li>Hit the gym</li>
+                <li>Pay bills</li>
+                <li>Meet George</li>
+                <li class="checked">Buy eggs</li>
+                <li>Organize office</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Task 02 -->
+    <div class="container" id="box2">
+        <h3><span class="task">Task 2</span>: Write a JavaScript program to calculate the volume of a sphere.</h3>
+
+        <div id="task2">
+            <h4>- Input Radius value & get the Volume of a Sphere</h4>  
+
+            <form action="#" method="post" id="MyForm">
+                <div id="radius-div">
+                    <label for="radius">Radius:</label>
+                    <input type="number" id="radius" name="rad" required>
+                </div>
+    
+                <div id="volume-div">
+                    <label for="volume">Volume:</label>
+                    <input type="number" id="volume" name="vol" disabled>
+                </div>
+
+                <div class="btn">
+                    <input type="submit" value="Calculate" id="submit">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Task 03 -->
+    <div class="container" id="box3">
+        <h3><span class="task">Task 3</span>: Create a webpage that ask user to perform any of the given operations.</h3>
+
+        <div id="task3">
+            <h4>- Select any one option:</h4> 
+
+            <div class="btn">
+                <input type="submit" value="Generate Table" id="table" class="submit-btn">
+            </div>
+
+            <div class="btn">
+                <input type="submit" value="Calculate Power" id="power" class="submit-btn">
+            </div>
+
+            <div class="btn">
+                <input type="submit" value="Generate Sequence" id="sequence" class="submit-btn">
+            </div>
+
+            <div class="btn">
+                <input type="submit" value="Generate Odd No. / Even No." id="evenOdd" class="submit-btn">
+            </div>
+        </div>
+    </div>
+
+    <!-- Task 04 -->
+    <div class="container" id="box4">
+        <h3><span class="task">Task 4</span>: Create a document with multiple tabs with background color. Upon hover background color of the document is changed accordingly.</h3>
+
+        <div id="task4">
+            <div class="tab tab-r" onmouseover="red()" onmouseleave="blank()"><p>R</p></div>
+            <div class="tab tab-o" onmouseover="orange()" onmouseleave="blank()"><p>O</p></div>
+            <div class="tab tab-y" onmouseover="yellow()" onmouseleave="blank()"><p>Y</p></div>
+            <div class="tab tab-g" onmouseover="green()" onmouseleave="blank()"><p>G</p></div>
+            <div class="tab tab-b" onmouseover="blue()" onmouseleave="blank()"><p>B</p></div>
+            <div class="tab tab-i" onmouseover="indigo()" onmouseleave="blank()"><p>I</p></div>
+            <div class="tab tab-v" onmouseover="violet()" onmouseleave="blank()"><p>V</p></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
